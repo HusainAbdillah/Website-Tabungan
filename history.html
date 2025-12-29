@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Riwayat</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+
+<div class="app" id="capture">
+  <h2>📊 Riwayat</h2>
+
+  <div class="download-group">
+    <button class="dl png" onclick="downloadImage('png')">PNG</button>
+    <button class="dl jpg" onclick="downloadImage('jpeg')">JPEG</button>
+    <button class="dl csv" onclick="downloadCSV()">CSV</button>
+  </div>
+
+  <ul id="riwayatFull"></ul>
+
+  <p>Total Masuk: <b id="totalMasuk"></b></p>
+  <p>Total Keluar: <b id="totalKeluar"></b></p>
+  <p>Saldo Akhir: <b id="saldoAkhir"></b></p>
+
+  <a href="index.html">⬅ Kembali</a>
+</div>
+
+<script src="history.js"></script>
+</body>
+</html>

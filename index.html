@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Catatan Tabungan —Coding By Abdillah & ChatGPT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h3 id="halo"></h3>
+
+  <input id="ket" placeholder="Keterangan">
+  <input id="jumlah" type="number" placeholder="Jumlah">
+
+  <div class="btn-group">
+    <button class="masuk" onclick="tambah('masuk')">+ Masuk</button>
+    <button class="keluar" onclick="tambah('keluar')">- Keluar</button>
+  </div>
+
+  <h2 id="saldo">Saldo: Rp 0</h2>
+
+  <a href="history.html">📜 Riwayat</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
